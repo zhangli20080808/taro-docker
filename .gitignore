@@ -1,0 +1,12 @@
+dist/
+dist_weapp/
+.temp/
+.rn_temp/
+node_modules/
+.DS_Store
+.backup
+.idea
+dist.zip
+.vscode
+project.config.json
+*.log
