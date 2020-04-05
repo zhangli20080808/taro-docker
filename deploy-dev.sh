@@ -1,6 +1,10 @@
-echo Deploy Project
+# echo Deploy Project
 # docker-compose up -d --force-recreate --build
 
+PROJECT=taro-docker
+CODEDIR=$HOME/$PROJECT
+
+cd $CODEDIR
 # 获取最新版代码
 git pull
 
