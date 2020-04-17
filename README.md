@@ -4,6 +4,8 @@
 - docker-compose
 - gitlab webhooks
 
+- ./nginx/conf.d/:/etc/nginx/conf.d
+
 
 ## 示例代码运行
 - NodeJS 8.0 need https://nodejs.org/en/
