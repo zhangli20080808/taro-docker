@@ -18,7 +18,7 @@ services:
     image: mongo-express
     restart: always
     ports:
-      - 8081:8081
+      - 8091:80
   nginx:
     restart: always
     image: nginx
