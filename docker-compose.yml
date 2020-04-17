@@ -26,5 +26,5 @@ services:
       - 8091:80
     volumes:
       - ./nginx/vhost/:/usr/local/nginx/conf/vhost
-      - ./frontend/dist/:/usr/local/nginx/html
-      - ./static/:/root/taro-docker/static/
+      - ./frontend/dist/:/var/www/html;
+      - ./static/:/static/
