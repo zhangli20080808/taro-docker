@@ -25,6 +25,6 @@ services:
     ports:
       - 8091:80
     volumes:
-      - ./nginx/conf.d/:/usr/local/nginx/conf/vhost
+      - ./nginx/vhost/:/usr/local/nginx/conf/vhost
       - ./frontend/dist/:/root/taro-docker/frontend/dist
       - ./static/:/root/taro-docker/static/
