@@ -25,6 +25,6 @@ services:
     ports:
       - 8091:80
     volumes:
-      - ./nginx/vhost/:/usr/local/nginx/conf/vhost
-      - ./frontend/dist/:/root/test/www;;
+      - ./nginx/vhost/docker.conf:/usr/local/nginx/conf/vhost/docker.conf
+      - ./frontend/dist/:/usr/local/nginx/html
       - ./static/:/static/
